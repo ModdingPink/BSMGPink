@@ -1,0 +1,28 @@
+{
+  "coverImageFilename": "cover.PNG",
+  "icon": "cover.PNG",
+  "id": "BurnMarksModPink",
+  "name": "BurnMarksMod",
+  "author": "Pink",
+  "description": [
+      "Enables the PC Burn Marks when colliding your sabers with the ground.\nDM me on Discord: Pink#3877 If you have any issues!"
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.8.0",
+  "version": "1.1.2",
+  "config": {},
+  "links": {
+  },
+  "platform": "Quest",
+  "components": [
+    {
+      "Type": "HookMod",
+      "InstallAction": {
+        "InstallLibraryFile": "libBurnMarksMod.so"
+      },
+      "UninstallAction": {
+        "RemoveLibraryFile": "libBurnMarksMod.so"
+      }
+    }
+  ]
+}
