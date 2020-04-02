@@ -1,0 +1,25 @@
+{
+    "id": "NoteSpawnEffectRemover",
+    "name": "Note Spawn Effect Remover",
+    "author": "Sc2ad, Updated by Pink",
+    "description": [
+        
+        "Removes those annoying flashy lights when notes spawn. You know what I&#39;m talking about."
+        
+    ],
+    "category": "Gameplay",
+    "gameVersion": "1.8.0",
+    "version": "0.2.0",
+    "platform": "Quest",
+    "components": [
+        {
+            "Type": "HookMod",
+            "InstallAction": {
+                "InstallLibraryFile": "libnotespawneffectremover.so"
+            },
+            "UninstallAction": {
+                "RemoveLibraryFile": "libnotespawneffectremover.so"
+            }
+        }
+    ]
+}
