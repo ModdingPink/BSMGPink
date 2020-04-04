@@ -1,0 +1,28 @@
+{
+  "coverImageFilename": "cover.gif",
+  "icon": "cover.gif",
+  "id": "QuestChromaLite",
+  "name": "ChromaLite",
+  "author": "Pink",
+  "description": [
+      "This is a Quest port of skykiwi\'s PC Mod \'ChromaLite\'. It enables the use of Custom ChromaLite Lighting in certain maps which use it.\nDM me on Discord: Pink#3877 If you have any issues!"
+  ],
+  "category": "Gameplay",
+  "gameVersion": "1.8.0",
+  "version": "1.1.2",
+  "config": {},
+  "links": {
+  },
+  "platform": "Quest",
+  "components": [
+    {
+      "Type": "HookMod",
+      "InstallAction": {
+        "InstallLibraryFile": "libchromalite.so"
+      },
+      "UninstallAction": {
+        "RemoveLibraryFile": "libchromalite.so"
+      }
+    }
+  ]
+}
